@@ -16,6 +16,3 @@ name = "მე მქვია ანდრია"
 surname = "ჩემი გვარია ცაცუა"
 age = "და ვარ 14 წლის"
 print(name, surname, age)
-
-
-

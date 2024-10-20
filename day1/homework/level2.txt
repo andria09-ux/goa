@@ -1,0 +1,1 @@
+print(sadly, i didn't try to talk to anybody)
