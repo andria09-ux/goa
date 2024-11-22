@@ -9,9 +9,16 @@ for i in range(len(array)):
         array[i] = "even"
 print(array)
 # 3
-array = [2, "a", "p", "p", "l", "e", "s"]
-print(array[0:-1])
-# ?
+arr = ["a", "d", "d", "f", "f", "s", "a", 'y']
+arr_of_vowels = ['a', 'e', 'i', 'o', 'u', 'y']
+counter_of_vowels = 0
+
+for char in arr:
+    for vowel in arr_of_vowels:
+        if char == vowel:
+            counter_of_vowels += 1
+print(counter_of_vowels)
+# 
 # 4
 for i in range(1, 5):
    print(i * " " + "******") # OMFGGGGGGGGGG I DID IT
