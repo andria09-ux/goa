@@ -7,7 +7,12 @@ arr.reverse()
 print(arr)
 # 3
 list_of_numbers = [1, 2, 3]
-print(list_of_numbers * 3)
+len_list_of_numbers = len(list_of_numbers)
+res = []
+for i in range(len_list_of_numbers):
+    for repeat_i in range(len_list_of_numbers):
+        res.append(list_of_numbers[repeat_i])
+print(res)
 # 4
 insert_arr = ["nika", "andria", "deme", "mari", "barbare"]
 insert_arr.insert(4, "dato")
