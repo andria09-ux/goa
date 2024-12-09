@@ -1,0 +1,36 @@
+.top{
+    color: rgb(255, 0, 0);
+}
+
+.navig , .navig2{
+    color: #ffa500;
+}
+
+.yell{
+    color: hsl(60, 100%, 50%);
+}
+
+.greed{
+    color: rgb(0, 128, 0);
+}
+
+.sad{
+    color: #0000ff;
+}
+
+.madeupcolor{
+    color: hsl(275, 100%, 25%);
+}
+
+.num1 , .num2 , .aaa{
+    color: rgb(238, 130, 238);
+}
+
+a{
+    color: #ffa500;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(28, 88, 148);
+}
+
+#1{
+    background-color: #2b2b;
+}
+
+.a{
+    color: hsl(11, 23%, 43%);
+    font-size: large;
+}
+
+#2{
+    background-color: #1e1e5e;
+}
+
+.b{
+    color: hsl(0, 47%, 38%);
+}
+
+#3{
+    background-color: #c116c1;
+}
+
+.c{
+    color: hsl(0, 4%, 5%);
+}
