@@ -5,7 +5,8 @@ def bool_to_word(boolean):
     elif boolean == False:
         return "No"         
 # 2
-    # ?
+def remove_char(s):
+    return s[1: -1]
 # 3
 def string_to_number(s):
     if type(s) == str:
@@ -14,9 +15,16 @@ def string_to_number(s):
 def no_space(x):
     return x.replace(" ", "")
 # 5
-def remove_char(s):
-    new_s = s.replace(s[0], "")
-    newer_s = s.replace(new_s[-1], "")
-    return newer_s
-remove_char("country")
+def sum_array(a):
+    counter = 0
+    for num in a:
+#         counter = counter + num
+        counter += num
+    return counter
+######
+def sum_array(a):
+    counter = 0
+    for i in range(len(a)):
+        counter += a[i]
+    return counter
 # ???
