@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:
+    linear-gradient(210deg, rgba(130, 222, 238, 0.5), rgba(226, 43, 195, 0.6) 40%),
+    linear-gradient(40deg, rgba(21, 255, 0, 0.4), rgba(130, 163, 31, 0.3) 60%),
+    linear-gradient(90deg, rgba(144, 0, 255, 0.7), rgba(162, 55, 55, 0.9) 40%);
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+h1{
+    font-size: 42px;
+    color: hsl(271, 76%, 25%);
+    text-align: center;
+}
+
+.card{
+    background-color: cyan;
+    width: 300px;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: -5px 5px 2px 0px white;
+}
+
+.card p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}

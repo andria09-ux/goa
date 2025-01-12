@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./assets/image\ copy.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: gold;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.image-container{
+    background-image: url(./assets/image\ copy\ 2.png);
+    background-size: cover;
+    background-position: -150px 0px;
+    background-repeat: no-repeat;
+    border: 2px solid gold;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
