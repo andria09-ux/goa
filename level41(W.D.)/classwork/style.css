@@ -1,0 +1,39 @@
+/* body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+} */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 5px 10px;
+}
+
+tr:first-child{
+    background-color: rgb(139, 0, 139);
+}
+
+tr:nth-child(2n){
+    background-color: rgb(255, 248, 220);
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(3n){
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+tr:not(:first-child):hover{
+    background-color: gray;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image:linear-gradient(90deg,rgb(0, 236, 236), rgb(7, 122, 122), cyan);
+    background-repeat: no-repeat;
+}
+
+td, th {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+tr:not(:first-child):hover{
+    background-color: rgb(141, 224, 224);
+}
