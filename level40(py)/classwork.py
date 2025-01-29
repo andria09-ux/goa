@@ -1,3 +1,4 @@
+# 3
 def password(st):
     if len(st) < 8:
         return False
@@ -13,3 +14,4 @@ def password(st):
             is_upper = True
     return is_upper and is_lower and is_digit_num
             
+# 4
