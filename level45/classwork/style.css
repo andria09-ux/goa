@@ -1,0 +1,23 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border: 10px solid rgb(34, 177, 76);
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: space-between;
+    gap: 10px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box-1{
+    border: 10px solid red;
+}
