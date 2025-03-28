@@ -1,10 +1,12 @@
 # 1
 def multi_table(number):
-    table = ""
-    for i in range(1, 11):
-        table += "i * number = i * number\n"
-    return table
-
+    _str = ""
+    for num in range(1, 11):
+        if num != 10:
+            _str += f"{num} * {number} = {num * number}\n"
+        else:
+            _str += f"{num} * {number} = {num * number}"
+    return _str
 # 2
 
 # 3
@@ -16,6 +18,13 @@ def string_clean(s):
     return cleaned_string
 
 # 4
+def remove_consecutive_duplicates(s):
+    splied_words = s.split(" ")
+    result_arr = []
+    for i in range(len(splied_words)):
+        if (splied_words[i] != splied_words[i-1]) or (i == 0):
+            result_arr.append(splied_words[i])
+    return " ".join(result_arr)
 
 # 5
 def between_extremes(numbers):

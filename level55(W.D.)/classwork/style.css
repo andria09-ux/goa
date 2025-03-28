@@ -1,0 +1,11 @@
+div {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(34, 177, 76);
+}
+
+.child{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
