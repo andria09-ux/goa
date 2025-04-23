@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: darkslategrey;
+        }
+
+        .box {
+            background: dodgerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10rem;
+            border-radius: 5px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+        @media (max-width: 1080px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 580px) {
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="box">setings</div>
+    <div class="box">options</div>
+    <div class="box">learn more</div>
+    <div class="box">new</div>
+    <div class="box">other games</div>
+    <div class="box">about</div>
+    <div class="box">account</div>
+    <div class="box">support us</div>
+    <div class="box">contact us</div>
+    <div class="box">update list</div>
+</div>
+</body>
+</html>
