@@ -1,0 +1,1 @@
+name = lambda x: 1+1
