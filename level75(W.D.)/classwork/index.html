@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        :root{
+            --primary: #e2e2e2;
+            --primary-10: #ececec;
+            --primary-20: #d8d8d8;
+            --primary-30: #c4c4c4;
+            --primary-40: #b0b0b0;
+            --primary-50: #b0b0b0;
+            --primary-60: #9b9b9b;
+
+            --error-70: #d71818;
+            --error-80: #;
+            --error-90: #;
+
+            --btn-color: rgb(137, 14, 141);
+
+
+            
+        }
+        .primary-btn{
+            background-color: var(--btn-color);
+            color: var(--primary);
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .dark{
+
+            --primary: black;
+
+            --btn-color: rgb(228, 10, 232);
+        }
+
+    </style>
+</head>
+
+<body>
+    <button class="primary-btn">lomi</button>
+
+    <button id="darl-mode" class="primary-btn">assdf</button>
+
+    <script>
+        // const html = document.querySelector('html')
+        const button = document.getElementById('dark-mode')
+
+        let darkMode = true
+        button.addEventListener('click', function(){
+            if (darkMode){
+                document.body.classList.add('dark');
+                darkMode = false;
+            }else{
+                document.body.classList.remove('dark');
+                darkMode = true;
+            }
+        })
+    </script>
+</body>
+
+</html>
