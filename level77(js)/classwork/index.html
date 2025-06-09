@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const fruits = ["a", "b", "c", "d", "e"]
+        fruits.splice(1, 3, "1", "2", "3")
+        console.log(fruits)
+        const fruitsRange = fruits.slice(2, 3)
+        console.log(fruitsRange)
+        fruitsRange.splice(1, 1,"@", "#")
+        console.log(fruitsRange)
+
+        console.log("arr type:", typeof fruits)
+        const name = "davit"
+        const person = {
+            name: "john",
+            surname: "doe",
+            fullName: function(){
+                return `person model${this.surname}. person surname: ${this.surname}.`
+            }
+        }
+        console.log(person.name)
+        console.log(person.surname)
+        person.age = "25"
+        console.log(person.age)
+        console.log(person.fullName())
+        console.log(Object.keys(person))
+        console.log(Object.values(person))
+        function CarObject(fname, lname, age, light){
+            this.firstName = fname,
+            this.lastName = lname,
+            this.age = age,
+            this.headlight = light 
+        }
+        const newCar = new CarObject("f40", "ferrari", 1986, true)
+        console.log(newCar.firstName)
+    </script>
+</body>
+
+</html>
