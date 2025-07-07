@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="max-w-[300px]">
+        <img
+        class="w-full"
+        src="img"
+            alt="lomi">
+        <div class="flex justify-between">
+            <button 
+            onclick="previousButton()"
+            class="bg-gray-500 text-white px-2 rounded-sm hover:bg-gray-300 hover:text-gray-500 transition-all">
+                < 
+            </button>
+            <button 
+            onclick="nextButton()"
+            class="bg-gray-500 text-white px-2 rounded-sm hover:bg-gray-300 hover:text-gray-500 transition-all">
+                >
+            </button>
+        </div>
+    </div>
+    <script>
+        const img = document.querySelector("img");
+        console.log(img)
+        let counter = 0;
+        let array = []
+        function previousButton() {
+            console.log("previousButton")
+            img.src = "img"
+        }
+        function nextButton(){
+            console.log("nextButton")
+        }
+    </script>
+</body>
+
+</html>
