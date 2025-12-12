@@ -1,0 +1,1 @@
+MONGOB_TYPE = ""
